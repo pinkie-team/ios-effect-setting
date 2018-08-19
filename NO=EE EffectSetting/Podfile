@@ -6,7 +6,6 @@ target 'NO=EE EffectSetting' do
   use_frameworks!
 
   # Pods for NO=EE EffectSetting
-pod 'Eureka', :git => 'https://github.com/xmartlabs/Eureka.git', :branch => 'Swift-3.3'
 pod 'SwiftyJSON'
 pod 'Alamofire', '~> 4.5'
 pod 'TinyConstraints', :git => 'https://github.com/roberthein/TinyConstraints.git', :branch => 'Release_2.1.2'
