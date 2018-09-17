@@ -21,14 +21,14 @@ class ViewController: UIViewController {
         
         hamonButton.setTitle("波紋", for: .normal)
         hamonButton.setTitleColor(UIColor.white, for: .normal)
-        hamonButton.backgroundColor = UIColor.hex(Color.main.rawValue, alpha: 1.0)
+        hamonButton.backgroundColor = UIColor.hex(Color.orange.rawValue, alpha: 1.0)
         hamonButton.layer.cornerRadius = 15.0
         hamonButton.addTarget(self, action: #selector(tapButton), for: .touchUpInside)
         hamonButton.tag = 1
         
         onomatoButton.setTitle("オノマトペ", for: .normal)
         onomatoButton.setTitleColor(UIColor.white, for: .normal)
-        onomatoButton.backgroundColor = UIColor.hex(Color.main.rawValue, alpha: 1.0)
+        onomatoButton.backgroundColor = UIColor.hex(Color.orange.rawValue, alpha: 1.0)
         onomatoButton.layer.cornerRadius = 15.0
         onomatoButton.addTarget(self, action: #selector(tapButton), for: .touchUpInside)
         onomatoButton.tag = 2
